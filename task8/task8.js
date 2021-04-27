@@ -12,8 +12,8 @@ if(items[i]==items[j]){
 m++;}
 }
 if(m>mf){
-   mf=m;
-   items.splice(i,i);
+   
+   items.splice(i,1);
 }
 
 m=0;
@@ -22,4 +22,3 @@ mf=1;
 
 
 alert(items + " (array  without duplicate )");
-
